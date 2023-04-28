@@ -1,0 +1,92 @@
+
+.dark-mode {
+    background-color: #111;
+    color: #fff;
+}
+.title {
+    font-family: sans-serif;
+    font-weight: bolder;
+    color: #91aff0;
+    margin-top: 0;
+    margin-left: 0;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    text-align: right;
+    font-family: sans-serif;
+    font-weight: bolder;
+    padding: 20px;
+    box-sizing: border-box;
+    background-image: url(static/wallpaperflare.com_wallpaper\ \(2\).jpg);
+    background-size: cover;
+    background-blend-mode: overlay;
+    filter: brightness(100%);
+    
+}
+
+.card { 
+    background-color: #91aff0;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    height: 400px;
+    width: 50%;
+    max-width: 500px;
+    margin-left: 0px;
+    margin-top: 15%;
+}
+.form {
+    display: flex;
+    height: min-content;
+    flex-direction: column;
+}
+.input {
+    border-radius: 5px;
+    font-size: larger;
+    border-color:blanchedalmond;
+    
+}
+.button {
+    font-family: sans-serif;
+    border-radius: 40px;
+    border-color:rgba(0, 0, 0, 0.096);
+    font-size: medium;
+    background-color: rgba(44, 158, 173, 0.418);
+    font-weight: bold;
+    height: 75px;
+}
+.material-symbols-outlined {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.text2 {
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-align: justify;
+    
+    
+}
+.container {
+    font-weight: bolder;
+    color: #91aff0;
+    position: absolute;
+    margin-top: 10%;
+    right: 20px;
+    text-align: right;
+    
+}
+
+
+.paragaph-container {
+    color: #91aff0;
+    position: absolute;
+    margin-top: 15%;
+    right: 20px;
+    text-align: justify;
+    margin-left: 50%;
+    font-weight: bolder;
+}
